@@ -1,0 +1,40 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+h1 { font-size: 24px; }
+.loginbox { background: #ffffff; padding: 0px; width: 850px; margin: 0% auto 0 auto; position: relative; }
+.loginboxinner { 
+	background: #0077bb; padding: 0px; position: relative;
+}
+.loginheader { height: 40px; }
+.loginform { margin-top: 20px; }
+
+.loginbox h1 { font-size: 30px; letter-spacing: 1px; color: #555; font-weight: normal; padding-top: 10px; }
+.loginbox .logo { position: absolute; top: 10px; right: 20px; }
+.logo img { height:60px; width:60px; }
+.loginbox p { margin: 10px 0 15px 0; }
+
+.loginerror { color: #990000; background: #fbe3e3; padding: 0 10px; overflow: hidden; display: none; }
+.loginerror { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.loginerror p { margin: 10px 0; }
+
+.radius { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.title { font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif; }
+
+@media screen and (max-width: 430px) {
+	
+	body { font-size: 11px;}
+	button, input, select, textarea { font-size: 11px; }
+	
+	.loginbox { width: auto; margin: 10px; }
+	.loginbox input { width: 95%; }
+	.loginbox button { width: 100%; }
+}	
